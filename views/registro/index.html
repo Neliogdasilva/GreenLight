@@ -5,8 +5,37 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Mulish&display=swap"
+        rel="stylesheet"
+        type='text/css'
+    >
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <h1>Registro</h1>
+    <body>
+        <div class="signup-wrapper">
+            <h2>Sign Up</h2>
+            <p>Create your own account! 🚀</p>
+            <form class="signup-form">
+            <input id="email" type="email" placeholder="Your email">
+            <input 
+                id="password" 
+                type="password" 
+                placeholder="Password"
+            >
+            <input 
+                id="confirm-password" type="password"
+                placeholder="Repeat Password">
+            <div class="power-container"> 
+                <div id="power-point"></div> 
+            </div>
+            <button type="submit">Sign Up</button>
+            </form>
+        </div>
+        <script src="script.js"></script>
+    </body>
 </body>
 </html>
